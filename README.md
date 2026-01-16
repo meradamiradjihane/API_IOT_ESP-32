@@ -40,7 +40,7 @@ ESP32 Pin Assignments:
 ```
 Le diagramme de câblage ci-dessous a été conçu avec Fritzing :
 
-![Schéma de câblage](chemin/vers/schema_fritzing.png)
+![Schéma de câblage](Cablage.png)
 
 *Fichier source : [projet_iot.fzz](chemin/vers/fichier.fzz)*
 
@@ -240,9 +240,12 @@ uvicorn API:app --reload --host 0.0.0.0 --port 8000
 
 
 ## Groupe 15 
-Auteur: 
+Auteurs: 
 
-MERAD Amira Djihane
-CHBOUK Yassir
-AMARA Rafik
-Goussem Ayoub
+MERAD Amira Djihane (IASD)
+
+CHBOUK Yassir (IASD)
+
+AMARA Rafik (IASD)
+
+Goussem Ayoub (IASD)
