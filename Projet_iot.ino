@@ -5,8 +5,8 @@
 #include <math.h>
 
 // ===== WIFI =====
-const char* ssid     = "Djihane";
-const char* password = "27062001";
+const char* ssid     = "VOTRE_SSID";
+const char* password = "VOTRE_MOT_DE_PASSE";
 
 // ===== CAPTEURS =====
 #define PIN_LDR   36
@@ -201,8 +201,8 @@ void setup() {
   server.on("/temp", handleTemp);
   server.on("/config/temp", handleTempConfig);
   server.on("/config/ldr", handleLDRConfig);
-  server.on("/led", handleLedManual);   // 👈 AJOUT
-  server.on("/mode", handleMode);        // 👈 AJOUT
+  server.on("/led", handleLedManual);   
+  server.on("/mode", handleMode);     
 
   server.begin();
 }
